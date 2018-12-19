@@ -1,0 +1,154 @@
+@import "variables"
+
+.about
+  background: url("../img/about/background.png") no-repeat center
+  background-size: cover
+  height: 100%
+  padding-bottom: 10vh
+
+.about-container
+  max-width: 1200px /* FIX */
+  justify-content: center
+  align-items: center
+  flex-direction: column
+
+.nav-item-about:hover
+  background: #91778e
+  transition: 0.7s
+
+
+
+/* FIGURE COMMENT */
+
+.figure-comment
+  margin-top: 50px
+  display: block
+  position: relative
+  background: #a1ca6c
+  border: 1px solid #7d9185
+  padding: 10px 40px
+  border-radius: 5px
+
+  &:after, &:before
+    top: 100%
+    border: solid transparent
+    content: " "
+    height: 0
+    width: 0
+    position: absolute
+    pointer-events: none
+
+
+  &:after
+    border-color: rgba(255, 255, 255, 0)
+    border-top-color: #a1ca6c
+    border-width: 18px
+    left: 50%
+    margin-left: -18px
+
+  &:before
+    border-color: rgba(125, 145, 133, 0)
+    border-top-color: #a1ca6c
+    border-width: 19px
+    left: 50%
+    margin-left: -19px
+
+  h4
+    text-align: center
+    color: #ffffff
+    font-family: "Lato - Black", sans-serif
+    font-size: 25px
+    font-weight: 700
+    text-transform: uppercase
+
+
+
+/* ELEMENTS */
+
+.about-container-elements
+  max-width: 1200px
+  display: flex
+  margin-top: 80px
+  justify-content: center
+  align-items: center
+  flex-wrap: wrap
+  padding-bottom: 30px
+
+.about-element
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  width: 260px
+  height: 380px
+  margin: 10px
+  background: rgba( 77, 63, 75, 0.7)
+  transition: 0.3s
+  &:hover
+    transform: scale(1.1)
+    transition: 0.3s
+
+    .about-element-image
+      background: url("../img/about/active-item.png") center no-repeat
+      transition: 0.3s
+    .about-element-post
+      color: #ff8973
+      transition: 0.3s
+
+    .link-item-facebook
+      border: #4f689e 2px solid
+      background: #4f689e
+      transition: 0.3s
+    .link-item-twitter
+      border: #74c7d5 2px solid
+      background: #74c7d5
+      transition: 0.3s
+    .link-item-google
+      border: #df5c64 2px solid
+      background: #df5c64
+      transition: 0.3s
+    .link-item-linkedin
+      border: #3e61af 2px solid
+      background: #3e61af
+      transition: 0.3s
+
+.about-element-image
+  background: url("../img/about/default-item.png") center no-repeat
+  width: 170px
+  height: 170px
+
+.about-element-name
+  margin-top: 30px
+  color: #c7b6c5
+  font-family: "Lato - Black", sans-serif
+  font-size: 25px
+  font-weight: 700
+  text-transform: uppercase
+
+.about-element-post
+  margin-top: 10px
+  color: #a1ca6c
+  font-family: "Lato", sans-serif
+  font-size: 14px
+  font-weight: 400
+  transition: 0.3s
+
+.about-element-list-links
+  margin-top: 40px
+  display: inherit
+
+.element-list-links-item
+  margin: 0 10px
+
+  a
+    display: block
+    color: #fff
+    text-decoration: none
+    height: 20px
+    width: 20px
+    text-align: center
+    padding: 6px 7px
+    border: #a1859e 2px solid
+    border-radius: 50%
+    background: #a1859e
+    transition: 0.3s
