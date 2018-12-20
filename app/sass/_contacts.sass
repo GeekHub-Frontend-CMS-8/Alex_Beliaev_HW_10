@@ -23,6 +23,7 @@
   display: flex
   justify-content: space-between
   padding-bottom: 5vh
+  flex-wrap: wrap
 
 
 .contacts-title
@@ -143,6 +144,7 @@
       padding: 10px 10px
       height: 150px
 
+
 .contacts-container-fix-button
   margin-top: 30px
   width: 100%
@@ -196,3 +198,45 @@ footer
     transform: scale(1.2)
     border: #4db0a1 1px solid
     background: #4db0a1
+
+
+@media (max-width: 1080px)
+  iframe
+    margin-top: 20px
+  .contacts-address-container
+    justify-content: center
+  .contacts-title
+    text-align: center
+
+@media (max-width: 970px)
+  .contacts-form
+    form
+      .contacts-input-default
+        width: 100%
+      .contacts-textarea
+        width: 100%
+        margin-right: 3%
+
+@media (max-width: 550px)
+  .contacts-address, .contacts-form
+    width: 100%
+    margin-right: 0
+    margin-left: 0
+    padding: 0 2%
+
+  .contacts-form
+    margin-top: 40px
+    padding: 0 5%
+    form
+      .contacts-input-default, .contacts-textarea
+        margin-left: 0
+        margin-right: 0
+
+  .contacts-address-fix
+    margin-right: 0
+
+  .contacts-e-address
+    margin-top: 40px
+
+  .footer-item
+    margin: 0 10px

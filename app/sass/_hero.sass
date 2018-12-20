@@ -16,6 +16,7 @@
   align-items: center
 
 .hero_content
+  width: 75%
   display: flex
   justify-content: center
   align-items: center
@@ -31,7 +32,7 @@
     font-family: "Lato Regular", "Arial", sans-serif
     display: block
     text-align: right
-    width: 380px
+    width: 50%
 
   .last_text
     font-family: "Lato Black", "Arial", sans-serif
@@ -39,3 +40,49 @@
     font-weight: 600
     text-transform: uppercase
     margin-left: 10px
+    width: 50%
+
+
+
+/* MEDIA */
+
+@media (max-width: 965px)
+  .hero_content
+    font-size: 45px
+    .last_text
+      font-size: 115px
+
+@media (max-width: 778px)
+  .hero_content
+    font-size: 40px
+    .last_text
+      font-size: 100px
+
+@media (max-width: 755px)
+  .hero_content
+    font-size: 30px
+    line-height: 30px
+    .last_text
+      font-size: 70px
+
+@media (max-width: 518px)
+  .hero_content
+    font-size: 21px
+    .last_text
+      font-size: 60px
+
+@media (max-width: 390px)
+  .hero_content
+    font-size: 20px
+    line-height: 20px
+    width: 100%
+    .last_text
+      font-size: 50px
+
+@media (max-width: 350px)
+  .hero_content
+    font-size: 17px
+    line-height: 20px
+    padding: 30px 15px
+    .last_text
+      font-size: 40px
