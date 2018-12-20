@@ -429,3 +429,177 @@ header {
     font-weight: 400;
     line-height: 58px;
     text-transform: uppercase; }
+
+/* CONTACTS */
+/* COLOR TEXT */
+/* FULL WHILE */
+/* FULL BLACK */
+.contacts {
+  background: url("../img/contacts/background.png") no-repeat center;
+  background-size: cover;
+  padding-bottom: 3vh; }
+
+.nav-item-contacts:hover {
+  background: #82c8bd; }
+
+.contacts-container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+
+/* CONTENT */
+.container-contacts-content {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5vh; }
+
+.contacts-title {
+  color: #ffffff;
+  font-family: "Lato Light", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px; }
+
+/* MAIN BLOCK 1 */
+.contacts-address {
+  width: 48%;
+  margin-right: 2%; }
+
+.contacts-address-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.contacts-address-fix {
+  margin-right: 50px; }
+
+.contacts-physical-address span {
+  display: inline-block;
+  margin-top: 20px;
+  color: #c0dfda;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 16.8px; }
+
+.contacts-physical-address p {
+  max-width: 185px;
+  margin-top: 10px;
+  text-align: left;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px; }
+
+.contacts-e-address {
+  margin-top: 70px;
+  max-width: 200px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center; }
+  .contacts-e-address .contacts-e-address-name {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #d0efea;
+    margin-right: 20px; }
+  .contacts-e-address .contacts-e-address-content {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff; }
+
+/* FORM */
+.contacts-form {
+  width: 48%;
+  margin-left: 2%; }
+  .contacts-form form {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap; }
+    .contacts-form form .contacts-input {
+      /* TEXT */
+      color: #82c8bd;
+      font-family: "Lato", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21px;
+      transition: 0.3s;
+      /* BACKGROUND */
+      background: #68a097;
+      border: #68a097 1px solid;
+      border-radius: 5px; }
+      .contacts-form form .contacts-input::-webkit-input-placeholder {
+        color: #75b4aa;
+        transition: 0.3s; }
+      .contacts-form form .contacts-input:focus {
+        background: #fff; }
+        .contacts-form form .contacts-input:focus::-webkit-input-placeholder {
+          color: transparent;
+          transition: 0.3s; }
+    .contacts-form form .contacts-input-default {
+      width: 40%;
+      height: 12px;
+      padding: 10px 15px;
+      margin-top: 3%;
+      margin-right: 3%; }
+    .contacts-form form .contacts-textarea {
+      margin-top: 3%;
+      width: 91%;
+      padding: 10px 10px;
+      height: 150px; }
+
+.contacts-container-fix-button {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .contacts-container-fix-button input {
+    width: 260px;
+    height: 50px;
+    border: #df5c64 1px solid;
+    box-shadow: inset 0 -4px 0 rgba(178, 74, 80, 0.5);
+    background-color: #df5c64;
+    color: #ffffff;
+    font-family: "Lato Black", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 21px;
+    text-transform: uppercase;
+    transition: 0.3s; }
+    .contacts-container-fix-button input:hover {
+      background-color: #cb2401;
+      transition: 0.3s; }
+
+footer {
+  width: 100%;
+  height: 100px;
+  background: #68a097; }
+
+.footer-container {
+  justify-content: center;
+  align-items: center; }
+
+.footer-item {
+  margin: 0 20px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  width: 23px;
+  height: 20px;
+  background: #82c8bd;
+  border-radius: 50%;
+  border: #82c8bd 1px solid;
+  padding: 15px 16px;
+  transition: 0.3s; }
+  .footer-item:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    border: #4db0a1 1px solid;
+    background: #4db0a1; }
